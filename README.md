@@ -6,7 +6,6 @@ CMX is an Open Source Solana Luanchpad Smart Contract.
 # Features
 
 - Onchain randomization
-- Onchain raffles
 - Onchain cosigner setup for bot protection
 - Supports minting for pNFT (mip1 standard), normal metaplex nfts, and more
 - Supports freeze and unfreeze for post-mint

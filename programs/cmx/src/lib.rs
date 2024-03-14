@@ -38,31 +38,6 @@ pub mod cmx {
         instructions::mint_nft_mip1::handle(ctx, wallet_limit_bump, in_order, user_limit, curr_time)
     }
 
-    pub fn buy_raffle_ticket(
-        ctx: Context<BuyRaffleTicket>,
-        wallet_limit_bump: u8,
-        raffle_ticket_bump: u8,
-        escrow_bump: u8,
-        curr_time: i64,
-    ) -> Result<()> {
-        instructions::buy_raffle_ticket::handle(
-            ctx,
-            wallet_limit_bump,
-            raffle_ticket_bump,
-            escrow_bump,
-            curr_time,
-        )
-    }
-
-    pub fn check_raffle_ticket(ctx: Context<CheckRaffleTicket>, curr_time: i64) -> Result<()> {
-        instructions::check_raffle_ticket::handle(ctx, curr_time)
-    }
-
-    // settle ONE ticket, we need to call multiple times to settle multiple tickets!
-    pub fn settle_raffle_ticket(ctx: Context<SettleRaffleTicket>, curr_time: i64) -> Result<()> {
-        instructions::settle_raffle_ticket::handle(ctx, curr_time)
-    }
-
     pub fn update_candy_machine(
         ctx: Context<UpdateCandyMachine>,
         notary: Option<Pubkey>,
