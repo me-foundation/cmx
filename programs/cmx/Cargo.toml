@@ -1,7 +1,7 @@
 [package]
 name = "cmx"
 version = "1.1.0"
-description = "Created with Anchor"
+description = "CMX is an Open Source Solana Luanchpad Smart Contract."
 edition = "2018"
 
 [lib]
