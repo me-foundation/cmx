@@ -20,4 +20,4 @@ Recommend to use the IDL to directly parse or CPI into the CMX onchain program w
 Apache 2.0
 
 # Implementation Reference
-Auction House v1.0.0 (Apache 2.0) https://github.com/metaplex-foundation/metaplex/blob/v1.0.0/LICENSE
+NFT-Candy-Machine v1.0.0 (Apache 2.0) https://github.com/metaplex-foundation/metaplex/blob/v1.0.0/LICENSE
