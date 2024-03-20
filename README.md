@@ -1,7 +1,7 @@
 <img src="./docs/cmx_logo.png" width="400">
 
 # CMX
-CMX is an Open Source Solana Luanchpad Smart Contract.
+CMX is an Open Source Solana Launchpad Smart Contract.
 
 # Features
 
